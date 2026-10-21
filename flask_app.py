@@ -8,8 +8,7 @@
 #  Les consignes sont dans le dossier "exercices/".
 # ---------------------------------------------------------------
 
-from flask import Flask
-
+from flask import Flask, render_template
 app = Flask(__name__)
 
 
@@ -26,19 +25,8 @@ def accueil():
 # ---------------------------------------------------------------
 @app.get("/presentation")
 def presentation():
-    return """
-    <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/26e9.png" width="100">
-    <h1>Torii</h1>
-    <p>Je suis étudiante en <strong>deuxième année à l'ICAM</strong>.</p>
-    <h2>Ce que j'aime</h2>
-    <ul>
-        <li>Les jeux vidéo</li>
-        <li>La musique</li>
-        <li>Le Volley</li>
-        <li>L'équitation</li>
-        <li>Dormir</li>
-    </ul>
-    """
+    return render_template("presentation.html", prenom="Léa", nom="Martin")
+
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
