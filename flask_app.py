@@ -26,7 +26,6 @@ def accueil():
 @app.get("/presentation")
 def presentation():
     return render_template("presentation.html", prenom="Torii", nom="Prm")
-    """
     <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/26e9.png" width="100">
     <h1>Torii</h1>
     <p>Je suis étudiante en <strong>deuxième année à l'ICAM</strong>.</p>
