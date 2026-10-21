@@ -1,11 +1,10 @@
 # 📒 Mon carnet de bord
 
-**Nom :** 
+**Nom :** PARMENTIER   
 
-**Prénom :** 
+**Prénom :** Victoria
 
-**Adresse de mon site :** https://______.pythonanywhere.com
-
+**Adresse de mon site :** https://1toriisauvage.pythonanywhere.com/
 > Modifiez ce fichier directement sur GitHub (icône crayon ✏️) pour répondre aux questions de chaque exercice.
 > Écrivez avec vos propres mots : une réponse courte et juste vaut mieux qu'un long copier-coller ! 🙂
 
@@ -43,7 +42,7 @@
 
 1. Quelle est la différence entre ce que le serveur **envoie** et ce que le navigateur **affiche** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Quand on envoie le code, on a pas la mise en page des titres par exemple mais le navigateur l'affiche quand même.
 
 2. À quoi servent les balises `<h1>`, `<p>`, `<ul>` et `<li>` ?
 
