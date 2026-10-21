@@ -30,7 +30,9 @@ def presentation():
 @app.get("/loisirs")
 def loisirs():
     return "Je fais du Volley, de l'équitation et du piano."
-
+@app.get("/loisirs")
+def loisirs():
+    return "Je dors."
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
