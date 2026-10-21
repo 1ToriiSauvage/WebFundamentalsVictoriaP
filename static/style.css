@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     max-width: 700px;
     margin: 40px auto;
-    background-color: #f4f6fb;
-    color: #222;
+    background-color: #efd3d1;
+    color: #000;
 }
 
 h1 {
-    color: #3355cc;
+    color: #f72800;
 }
 
 nav a {
