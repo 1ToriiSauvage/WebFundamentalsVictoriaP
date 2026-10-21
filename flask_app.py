@@ -24,7 +24,12 @@ def accueil():
 # ---------------------------------------------------------------
 #  Ajoutez vos nouvelles routes ci-dessous 👇
 # ---------------------------------------------------------------
-
+@app.get("/presentation")
+def presentation():
+    return "Je m'appelle Torii et je suis étudiante en Ingénierie Généraliste."
+@app.get("/loisirs")
+def loisirs():
+    return "Je fais du Volley, de l'équitation et du piano."
 
 
 # ---------------------------------------------------------------
