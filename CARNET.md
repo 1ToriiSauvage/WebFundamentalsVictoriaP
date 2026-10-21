@@ -15,11 +15,11 @@
 
 1. Où se trouve physiquement le code qui fabrique votre page : sur votre ordinateur, sur GitHub ou sur PythonAnywhere ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Physiquement, le code se trouve sur PythonAnywhere. GitHub en stock juste une copie.
 
 2. Pourquoi votre voisin(e) peut-il voir votre site, alors que vous n'avez rien installé sur son ordinateur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Parce que le site est stocké sur PythonAnywhere, donc en ligne, et il suffit d'avoir l'url pour accéder au site.
 
 ---
 
