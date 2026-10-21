@@ -36,7 +36,7 @@ def presentation():
         <li>Le Volley</li>
         <li>L'équitation</li>
         <li>Dormir</li>
-
+<img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/26e9.png" width="100">
     </ul>
     """
 
