@@ -25,7 +25,7 @@ def accueil():
 # ---------------------------------------------------------------
 @app.get("/presentation")
 def presentation():
-    return render_template("presentation.html", ecurie="Mercedes AMG Petronas F1 Team")
+    return render_template("presentation.html")
  
 
 
