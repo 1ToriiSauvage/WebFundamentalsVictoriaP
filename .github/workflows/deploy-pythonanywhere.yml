@@ -66,6 +66,10 @@ jobs:
             remote_path="${TARGET_DIR}/${rel}"
             echo " - ${rel} -> ${remote_path}"
 
+            printf 'HOST=[%s]\n' "$HOST"
+            printf 'USER=[%s]\n' "$USER"
+            printf 'REMOTE_PATH=[%s]\n' "$remote_path"
+
             curl -sS --fail -X POST \
               -H "Authorization: Token ${TOKEN}" \
               -F "content=@${file}" \
