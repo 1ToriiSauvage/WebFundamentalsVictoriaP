@@ -27,6 +27,14 @@ def accueil():
 def presentation():
     return render_template("presentation.html", prenom="Mercedes AMG Petronas", nom="Formula 1 Team")
  
+@app.get("/car")
+def car():
+    return render_template("car.html")
+
+
+@app.get("/sign_in")
+def sign_in():
+    return render_template("sign_in.html")
 
 
 # ---------------------------------------------------------------
