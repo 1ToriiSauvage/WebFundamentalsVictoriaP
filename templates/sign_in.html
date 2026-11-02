@@ -13,6 +13,21 @@
         <a href="/sign_in">Sign In</a>
     </nav>
    <h1>Sign In</h1>
-      
+    {% if inscrit %}<p><strong>Your registration has been completed!</strong></p>{% endif %}
+<form action="/sign_in" method="get">
+        <p><label>First name : <input type="text" name="FirstName"></label></p>
+        <p><label>Last name : <input type="text" name="LastName"></label></p>
+        <p><label>Date of birth : <input type="date" name="dob"></label></p>
+        <p><label>Email : <input type="email" name="email"></label></p>
+        <p><label>City : <input type="text" name="City"></label></p>
+        <p><label>Favourite driver :
+            <select name="pilote">
+                <option>George Russell</option>
+                <option>Kimi Antonelli</option>
+                <option>Frederik Vesti</option>
+            </select>
+        </label></p>
+        <button type="submit">Sign In</button>
+    </form>
 </body>
 </html>
