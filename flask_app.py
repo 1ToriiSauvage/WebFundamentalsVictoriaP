@@ -40,6 +40,11 @@ def sign_in():
 def bonjour(prenom):
     return f"<h1>Bonjour {prenom} !</h1>"
 
+@app.get("/calcul")
+def calcul():
+    a = int(request.args.get("a", 0))
+    b = int(request.args.get("b", 0))
+    return f"{a} + {b} = {a + b}"
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
