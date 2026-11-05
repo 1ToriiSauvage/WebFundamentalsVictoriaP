@@ -36,6 +36,10 @@ def car():
 def sign_in():
     return render_template("sign_in.html")
 
+@app.get("/bonjour/<prenom>")
+def bonjour(prenom):
+    return f"<h1>Bienvenue sur le site non officiel de {prenom} !</h1>"
+
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
