@@ -190,4 +190,4 @@
 
 En quelques phrases, expliquez à un ami ce qui se passe entre le moment où il tape une adresse dans son navigateur et celui où la page s'affiche :
 
-> _Ma réponse :_ 
+> _Ma réponse :_ Quand tu tapes une adresse, ton navigateur envoie une requête HTTP au serveur qui héberge le site. Le serveur exécute son code (par exemple en Python avec Flask) et renvoie une réponse : une page HTML avec un code comme 200 si tout va bien. Le navigateur lit ce HTML, puis envoie d’autres requêtes pour récupérer le CSS, les images, etc. Enfin, il assemble le tout et affiche la page mise en forme.
