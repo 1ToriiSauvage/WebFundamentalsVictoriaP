@@ -13,3 +13,12 @@ h1 {
 nav a {
     margin-right: 15px;
 }
+.A {
+  display: flex;         /* Met les enfants sur la même ligne */
+  align-items: center;   /* Aligne verticalement au centre (optionnel) */
+  gap: 15px;             /* Ajoute un espace entre l'image et le paragraphe */
+}
+
+.conteneur-ligne img {
+  max-width: 100px;      /* Adaptez la taille de l'image selon vos besoins */
+}
