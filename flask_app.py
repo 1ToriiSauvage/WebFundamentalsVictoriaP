@@ -38,7 +38,7 @@ def sign_in():
 
 @app.get("/bonjour/<prenom>")
 def bonjour(prenom):
-    return f"<h1>Bienvenue sur le site non officiel de {prenom} !</h1>"
+    return f"<h1>Bonjour {prenom} !</h1>"
 
 
 # ---------------------------------------------------------------
