@@ -8,7 +8,7 @@
 #  Les consignes sont dans le dossier "exercices/".
 # ---------------------------------------------------------------
 
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 app = Flask(__name__)
 
 
@@ -42,8 +42,8 @@ def bonjour(prenom):
 
 @app.get("/calcul")
 def calcul():
-    a = int(request.args.get("a", 0))
-    b = int(request.args.get("b", 0))
+    a = request.args.get("a", 0, type=int)
+    b = request.args.get("b", 0, type=int)
     return f"{a} + {b} = {a + b}"
 
 # ---------------------------------------------------------------
